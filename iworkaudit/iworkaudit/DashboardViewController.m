@@ -433,7 +433,7 @@
     profilePic.layer.borderWidth = 1.5f;
      profilePic.layer.cornerRadius = 32.0f;
     if (IS_IPAD) {
-        profilePic.layer.cornerRadius = 64.0f;
+        profilePic.layer.cornerRadius = 57.0f;
     }
     
     profilePic.layer.masksToBounds = YES;
