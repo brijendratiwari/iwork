@@ -388,7 +388,7 @@
                                 </connections>
                             </button>
                             <pickerView hidden="YES" contentMode="scaleToFill" id="AmU-Uj-Gdh">
-                                <rect key="frame" x="0.0" y="200" width="320" height="162"/>
+                                <rect key="frame" x="0.0" y="406" width="320" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="Rj7-8P-AW9"/>
