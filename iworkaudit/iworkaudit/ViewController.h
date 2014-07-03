@@ -16,7 +16,7 @@
 @interface ViewController : UIViewController<UITextFieldDelegate,WebServiceHelperDelegate,CLLocationManagerDelegate>{
     IBOutlet UITextField *usernametxt,*passwordtxt,*countrytxt;
     IBOutlet UILabel *remindmelbl;
-    IBOutlet UIButton *remberBtn,*needacclbl;
+    IBOutlet UIButton *remberBtn,*needacclbl,*cleardataBtn;
     KeychainItemWrapper *keychain;
     BOOL isRemberSelcted;
     IBOutlet UIPickerView *dataPicker;

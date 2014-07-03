@@ -90,12 +90,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iworkaudit/iTeamDetailsViewController.m"
-            timestampString = "425903666.279725"
+            timestampString = "426071820.384647"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "713"
-            endingLineNumber = "713"
-            landmarkName = "-WebServiceHelper:didFinishWithResult:"
+            startingLineNumber = "712"
+            endingLineNumber = "712"
+            landmarkName = "-selectQRCodeAndSerialNumber:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -118,8 +118,8 @@
                   continueAfterRunningActions = "No"
                   symbolName = "-[AppData deshboardNavType]"
                   moduleName = "iworkaudit"
-                  urlString = "file:///Users/ignis2/Desktop/Project/iWorkAudit/iworkaudit/iworkaudit%202%202%203/iworkaudit/AppData.h"
-                  timestampString = "425913160.185265"
+                  urlString = "file:///Users/ignis2/Desktop/sukhdev/iworkauditclone/iwork/iworkaudit/iworkaudit/AppData.h"
+                  timestampString = "426067827.891479"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -132,8 +132,8 @@
                   continueAfterRunningActions = "No"
                   symbolName = "-[AppData setDeshboardNavType:]"
                   moduleName = "iworkaudit"
-                  urlString = "file:///Users/ignis2/Desktop/Project/iWorkAudit/iworkaudit/iworkaudit%202%202%203/iworkaudit/AppData.h"
-                  timestampString = "425913160.185589"
+                  urlString = "file:///Users/ignis2/Desktop/sukhdev/iworkauditclone/iwork/iworkaudit/iworkaudit/AppData.h"
+                  timestampString = "426067827.891699"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -141,6 +141,38 @@
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iworkaudit/AddSimilarViewController.m"
+            timestampString = "426067093.009086"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iworkaudit/AddSimilarViewController.m"
+            timestampString = "426067676.812585"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "-textFieldDidBeginEditing:"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

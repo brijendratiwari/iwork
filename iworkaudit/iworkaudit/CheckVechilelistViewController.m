@@ -225,7 +225,7 @@
     
      cell.notesTxtV.text = [notesArr objectAtIndex:indexPath.row];
     
-    [[cell tittleName] setFont:[UIFont fontWithName:CORBEL_FONT size:14.0f]];
+    [[cell tittleName] setFont:[UIFont fontWithName:CORBEL_FONT size:(IS_IPAD ? 28.0f:14.0f)]];
     [[cell tittleName] setTitleColor:[hexColor colorFromHexString:@"#353535" alpha:1.0] forState:UIControlStateNormal];
     NSString *strr = [[checkListArr objectAtIndex:indexPath.row] objectForKey:@"check_name"];
    // strr = [strr stringByAppendingString:[NSString stringWithFormat:@": %@",[[checkListArr objectAtIndex:indexPath.row] objectForKey:@"check_long_description"]]];
@@ -296,8 +296,14 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (iscloseEnable[indexPath.row]) {
+        if (IS_IPAD) {
+            return 245.0f;
+        }
         return 140.0f;
     }else{
+        if (IS_IPAD) {
+            return 80.0f;
+        }
         return 40.0f;
     }
 }

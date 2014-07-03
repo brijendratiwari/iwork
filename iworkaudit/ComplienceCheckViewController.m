@@ -89,9 +89,11 @@
     
     
     AppData *appData=[AppData sharedInstance];
-    [appData setLoaderOnImageView:profilePic];
+    
     if ([[item itemphotopathText] length] != 0) {
-//        profilePic.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",appDataObj.apiURL_IMAGE,[item itemphotopathText]]]]];
+        
+        [appData setLoaderOnImageView:profilePic];
+        
         [profilePic setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",appDataObj.apiURL_IMAGE,[item itemphotopathText]]] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
             [appData removeLoader];
         }];

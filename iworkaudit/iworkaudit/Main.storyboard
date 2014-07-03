@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="f5i-Kg-RTJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="f5i-Kg-RTJ">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -81,24 +81,24 @@
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7xf-Fa-ZP5">
-                                <rect key="frame" x="31" y="102" width="71" height="71"/>
+                                <rect key="frame" x="19" y="102" width="71" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PJX-1o-ZIf">
-                                <rect key="frame" x="110" y="102" width="180" height="25"/>
+                                <rect key="frame" x="96" y="102" width="180" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JKh-Aw-LrI">
-                                <rect key="frame" x="110" y="146" width="180" height="25"/>
+                                <rect key="frame" x="96" y="146" width="180" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ryC-c1-CIZ">
-                                <rect key="frame" x="110" y="125" width="180" height="25"/>
+                                <rect key="frame" x="96" y="125" width="180" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -291,7 +291,7 @@
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6IT-96-Msh">
-                                <rect key="frame" x="31" y="102" width="71" height="69"/>
+                                <rect key="frame" x="17" y="102" width="71" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -379,7 +379,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ugS-rO-R5O">
-                                <rect key="frame" x="100" y="486" width="120" height="30"/>
+                                <rect key="frame" x="100" y="522" width="120" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="11"/>
                                 <state key="normal" title="Don't have an account ?"/>
@@ -388,13 +388,43 @@
                                 </connections>
                             </button>
                             <pickerView hidden="YES" contentMode="scaleToFill" id="AmU-Uj-Gdh">
-                                <rect key="frame" x="0.0" y="406" width="320" height="162"/>
+                                <rect key="frame" x="0.0" y="200" width="320" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="Rj7-8P-AW9"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="vA9-k6-2y6"/>
                                 </connections>
                             </pickerView>
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tto-sM-9JR">
+                                <rect key="frame" x="220" y="480" width="80" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="11"/>
+                                <state key="normal" title="Clear Data">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PressButtons:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2yF-Ho-uHa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="400" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xqF-6V-0rE">
+                                <rect key="frame" x="20" y="488" width="15" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="11"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="tick_rem.png"/>
+                                <connections>
+                                    <action selector="PressButtons:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bvJ-gE-BQg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember Me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AWO-Kx-PFK">
+                                <rect key="frame" x="43" y="483" width="150" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -402,9 +432,11 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <size key="freeformSize" width="320" height="480"/>
                     <connections>
+                        <outlet property="cleardataBtn" destination="Tto-sM-9JR" id="cWU-ZC-T33"/>
                         <outlet property="countrytxt" destination="P2F-Cj-vTz" id="ge1-iZ-WqM"/>
                         <outlet property="dataPicker" destination="AmU-Uj-Gdh" id="keL-15-BHJ"/>
                         <outlet property="passwordtxt" destination="DnD-vi-fCc" id="85N-eK-8dg"/>
+                        <outlet property="remberBtn" destination="xqF-6V-0rE" id="bOM-Pn-NDQ"/>
                         <outlet property="usernametxt" destination="YUI-qN-hi5" id="0Fc-iL-4PI"/>
                     </connections>
                 </viewController>
@@ -2128,14 +2160,14 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0zz-uP-Xc3">
-                                <rect key="frame" x="108" y="123" width="180" height="25"/>
+                                <rect key="frame" x="98" y="123" width="180" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SKs-7Z-zct">
-                                <rect key="frame" x="108" y="100" width="180" height="25"/>
+                                <rect key="frame" x="98" y="100" width="180" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -2211,7 +2243,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rWi-3I-vQ2">
-                                <rect key="frame" x="29" y="100" width="71" height="71"/>
+                                <rect key="frame" x="19" y="100" width="71" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8xv-Xy-wJK">
@@ -2238,7 +2270,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         <rect key="frame" x="20" y="468" width="79" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
-                                        <color key="textColor" red="0.95686274510000002" green="0.72941176470000002" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Bqb-sj-txa">
@@ -2595,7 +2627,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5n1-MR-PBi">
-                                <rect key="frame" x="29" y="121" width="71" height="69"/>
+                                <rect key="frame" x="19" y="121" width="71" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -3647,6 +3679,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="addSimilarlbl" destination="VbS-ef-I3c" id="w2H-Ft-t4h"/>
                         <outlet property="addSimilerBtn" destination="G7K-ab-nJj" id="XXf-hY-59f"/>
                         <outlet property="barcodeTxtF" destination="OmA-zw-q2M" id="7eA-nG-9iL"/>
                         <outlet property="dataPicker" destination="DWm-Cs-gcV" id="HiO-Bc-pdB"/>
@@ -3655,6 +3688,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <outlet property="modelTxtF" destination="K7k-oj-NCR" id="IVi-tY-GBZ"/>
                         <outlet property="notesTxtV" destination="oll-fu-BjW" id="a21-zy-Wdk"/>
                         <outlet property="patButton" destination="m5n-uQ-EEJ" id="Zu3-qM-AEV"/>
+                        <outlet property="patreqlbl" destination="zFj-uB-CaA" id="Tpo-32-Z9L"/>
                         <outlet property="purchaseDateTxtF" destination="WZ9-T5-Uff" id="hhS-5o-K9m"/>
                         <outlet property="qrscanTxtF" destination="Lc6-aB-bOv" id="rsP-Cb-Sz6"/>
                         <outlet property="scroller" destination="yK3-bx-vmg" id="fYf-Ln-GWw"/>
@@ -4431,6 +4465,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="text_field.png" width="261" height="29"/>
         <image name="textfield_bg.png" width="280" height="30"/>
         <image name="textfield_border.png" width="263" height="31"/>
+        <image name="tick_rem.png" width="15" height="15"/>
         <image name="uncheck.png" width="24" height="23"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

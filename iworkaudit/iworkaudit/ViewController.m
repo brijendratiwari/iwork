@@ -42,6 +42,14 @@
     
     HexColorToUIColor *hexColor = [[HexColorToUIColor alloc] init];
     
+    //set clerbtn and remember btn border
+    cleardataBtn.layer.cornerRadius=(IS_IPAD ? 8:4);
+    cleardataBtn.layer.borderWidth=(IS_IPAD ? 2:1);
+    cleardataBtn.layer.borderColor=[[UIColor whiteColor] CGColor];
+    remberBtn.layer.cornerRadius=(IS_IPAD ? 5:3);
+    remberBtn.layer.borderWidth=(IS_IPAD ? 2:1);
+    remberBtn.layer.borderColor=[[UIColor whiteColor] CGColor];
+    
     [remindmelbl setFont:[UIFont fontWithName:CORBEL_FONT size:14.0f]];
     [needacclbl.titleLabel setFont:[UIFont fontWithName:CORBEL_FONT size:14.0f]];
     //[usernametxt setFont:[UIFont fontWithName:CORBEL_FONT size:14.0f]];
