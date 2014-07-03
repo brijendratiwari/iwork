@@ -1909,7 +1909,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backToPrevView:" destination="QJC-AR-zdH" eventType="touchDragInside" id="7UM-YI-hEO"/>
+                                    <action selector="backToPrevView:" destination="QJC-AR-zdH" eventType="touchUpInside" id="beH-et-0WL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tIl-Tl-9aS">
@@ -1926,7 +1926,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <rect key="frame" x="0.0" y="837" width="768" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="QJC-AR-zdH" id="1g6-xh-KB4"/>
+                                    <outlet property="dataSource" destination="QJC-AR-zdH" id="47z-2P-X1L"/>
                                     <outlet property="delegate" destination="QJC-AR-zdH" id="mck-LS-hmf"/>
                                 </connections>
                             </pickerView>
